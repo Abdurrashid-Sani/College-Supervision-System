@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="first-container">
+<h4>Welcome to college supervision system</h4>
+<img src="images/bg.png" alt="">
+        </div>
+        <div class="second-container">
+            <div class="blank">
+
+            </div>
+            <p>Please provide login details below to Access the System</p>
+            <form action="server.php" method="post" enctype="multipart/form-data">
+              <p><span>User name:</span><input type="text" name="username" id=""></p>
+              <p><span>Password:</span><input type="password" name="password" id=""></p>
+              <p><span>Categories:</span><label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="Administrator">Administrator</option>
+                    <option value="Parent">Parent</option>
+                    <option value="NGO">NGO</option>
+                    <option value="PTO">PTO</option>
+                    <option value="Teacher">Teacher</option>
+                </select> </p>
+              
+               
+               <button name="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

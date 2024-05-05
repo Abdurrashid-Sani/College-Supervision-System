@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.main-container h4{ 
+width: 100%;
+background-color: white;
+height: 40px;
+text-align: center;
+color: green;
+font-size: 30px;
+}
+.main-container{
+    display: flex;
+   justify-content: center;
+   width: auto;
+    background-color:green;
+    height:80vh;
+}
+.main-container .first-container{
+    width: 70%;
+    height:80%;
+    border: 1px double black;
+}
+.main-container .first-container img{
+  width: 70%;
+  height:90%; 
+}
+.main-container .second-container{
+    border: 1px double black;
+    display: flex;
+    justify-content: center;
+
+     background-color:green;
+     flex-direction: column;
+     height:80%;
+     justify-content:space-between;
+     color: white
+}
+p{
+    font-size: 20px;
+}
+.main-container .second-container form{
+  
+    display: flex;
+    justify-content: center;
+     gap: 10px;
+     background-color:green;
+     flex-direction: column;
+   margin-bottom: 30px;
+     width: 200px;
+   ;
+
+}
+input[type='text']{
+    width: 100px;
+
+}
+input[type='password']{
+    width: 100px;
+   
+}
+select{
+    width: 100px;
+}
+button{
+    width: 80px;
+}
+.main-container .second-container .blank{
+    width: 100%;
+
+background-color: white;
+height: 40px;
+}
